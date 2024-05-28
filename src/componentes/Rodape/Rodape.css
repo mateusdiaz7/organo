@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url('/public/imagens/fundo.png') #6278F7 center bottom no-repeat;
+    background-size: cover;
+    margin: 80px 0 0 0;
+}
+
+footer .redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+.redes-sociais a:hover{
+    scale: 1.1;
+    transition: ease .4s;
+}
+
+a {
+    transition: ease .4s;
+}
+
+.logo-rodape {
+    padding: 15px 0;
+}
+
+.logo-rodape img {
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
